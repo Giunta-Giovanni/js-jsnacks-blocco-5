@@ -22,11 +22,13 @@ const students = [
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
 
-
+// metodo semplice
 const classeMarco = students.find((student) => {
   return student.name === 'Marco Lanci'
 });
 
+// metodo compatto
+// const classeMarco = students.find(student => student.name === 'Marco Lanci');
 console.log(classeMarco.class);
 
 
