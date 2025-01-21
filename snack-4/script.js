@@ -8,8 +8,13 @@ const posts = [
 // Crea un nuovo array coi nomi di tutti gli autori
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
 
+// metodo semplice
 const authors = posts.map((post) => {
   return post.author;
 })
 
+// metodo compatto
+// const authors = posts.map(post => post.author);
+
 console.log(authors);
+
