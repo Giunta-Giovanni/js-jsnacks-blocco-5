@@ -7,6 +7,10 @@ const people = [
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
 
+// metodo semplice
 people.forEach((person) => {
   console.log(person.name);
 })
+
+// metodo compatto
+// people.forEach(person => console.log(person.name));
